@@ -1,0 +1,34 @@
+<h2>Gerir Atividades</h2>
+
+<div class="destaque">Existem  Atividade(s).</div>
+<br />
+	<table border=1 class="templatemo_tabela_conteudo">
+
+		<tr>
+			<td>IdAtividade</td>
+			<td>Pergunta</td>
+			<td>LinkAudio</td>
+			<td>LinkImagemPergunta</td>
+			<td>LinkAudioImagemPergunta</td>
+			<td>IdNivel</td>
+			<td>IdTipoAtividade</td>
+			<td>Operações</td>
+		</tr>
+
+
+		<tr>
+			<td> 21 </td>
+			<td> zzc </td>
+			<td> zzcz </td>
+			<td> zcz </td>
+			<td> zcz </td>
+			<td> 3 </td>
+			<td> 2 </td>
+			<td>
+				<a href="editar_atividade.php?id=21" name="BtAlterar" ><Image src="images/button_alterar.png" /></a> 
+				<a href="apagar_atividade.php?id=21" name="BtApagar" ><Image src="images/button_apagar.png" /></a>
+			</td>
+		</tr>
+		</table>
+<br />
+<a href="inserir_atividade.php" name="BtInserir"><Image src="images/button_inserir.png" /></a>

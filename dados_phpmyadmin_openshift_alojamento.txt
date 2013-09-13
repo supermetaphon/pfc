@@ -1,0 +1,4 @@
+Please make note of these MySQL credentials again:
+  Root User: adminenuhV2y
+  Root Password: ZyRZ23L225y1
+URL: https://pfc-supermetaphon.rhcloud.com/phpmyadmin/

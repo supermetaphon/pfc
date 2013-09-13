@@ -1,0 +1,43 @@
+<h2>Gerir Atividades</h2>
+
+<!-- BEGIN BLOCK_REGISTOS -->
+<div class="destaque">Existem {QUANTIDADE} Atividade(s).</div>
+<br />{INFO}
+	<table border=1 class="templatemo_tabela_conteudo">
+
+		<tr>
+			<td>IdAtividade</td>
+			<td>Pergunta</td>
+			<td>LinkAudio</td>
+			<td>LinkImagemPergunta</td>
+			<td>LinkAudioImagemPergunta</td>
+			<td>IdNivel</td>
+			<td>IdTipoAtividade</td>
+			<td>Operações</td>
+		</tr>
+
+
+		<!-- BEGIN BLOCK_DADOS -->
+		<tr>
+			<td> {IDATIVIDADE} </td>
+			<td> {PERGUNTA} </td>
+			<td> {LINKAUDIO} </td>
+			<td> {LINKIMAGEMPERGUNTA} </td>
+			<td> {LINKAUDIOIMAGEMPERGUNTA} </td>
+			<td> {IDNIVEL} </td>
+			<td> {IDTIPOATIVIDADE} </td>
+			<td>
+				<a href="editar_atividade.php?id={IDATIVIDADE}" name="BtAlterar" ><Image src="images/button_alterar.png" /></a> 
+				<a href="apagar_atividade.php?id={IDATIVIDADE}" name="BtApagar" ><Image src="images/button_apagar.png" /></a>
+			</td>
+		</tr>
+		<!-- END BLOCK_DADOS -->
+	</table>
+<!-- END BLOCK_REGISTOS -->
+<br />
+<a href="inserir_atividade.php" name="BtInserir"><Image src="images/button_inserir.png" /></a>
+<!-- BEGIN BLOCK_VAZIO -->
+<div class=vazio>Nenhum registro encontrado.</div>
+<!-- END BLOCK_VAZIO -->
+
+

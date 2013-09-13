@@ -1,0 +1,53 @@
+<h2>Inserir Atividade</h2>
+
+<!-- BEGIN BLOCK_REGISTOS -->
+<form name="form_inserir_atividade" action="inserir_atividade.php" method="POST">
+
+	<table class="templatemo_tabela_conteudo">
+		
+		<!-- BEGIN BLOCK_DADOS -->
+		<tr>
+			<td>Pergunta</td>
+			<td><input name="Pergunta" value="{PERGUNTA}"/> </td>
+		</tr>
+		<tr>
+			<td>LinkAudio</td>
+			<td><input name="LinkAudio" value="{LINKAUDIO}"/> </td>
+		</tr>
+		<tr>
+			<td>LinkImagemPergunta</td>
+			<td><input name="LinkImagemPergunta" value="{LINKIMAGEMPERGUNTA}"/> </td>
+		</tr>
+		<tr>
+			<td>LinkAudioImagemPergunta</td>
+			<td><input name="LinkAudioImagemPergunta" value="{LINKAUDIOIMAGEMPERGUNTA}"/> </td>
+		</tr>
+		<tr>
+			<td>IdNivel</td>
+			<td><input name="IdNivel" value="{IDNIVEL}"/> </td>
+		</tr>
+		<tr>
+			<td>IdTipoAtividade</td>
+			<td><input name="IdTipoAtividade" value="{IDTIPOATIVIDADE}"/> </td>
+		</tr>
+		
+		<tr>
+			<td colspan="2" align="center">{INFO}</td>
+		</tr>
+
+		<tr>
+			<td colspan="2" align="center">
+				<a href="gerir_atividade.php" name="BtVoltar"><Image src="images/button_voltar.png" /></a>
+				<input type='image' src="images/button_inserir.png" name="BtInserir" value="Submit" />
+			</td>	
+		</tr>
+	
+		<!-- END BLOCK_DADOS -->
+
+	</table>
+</form>
+<!-- END BLOCK_REGISTOS -->
+
+<!-- BEGIN BLOCK_VAZIO -->
+<div class=vazio>Nenhum registro encontrado.</div>
+<!-- END BLOCK_VAZIO -->
